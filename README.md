@@ -5,7 +5,7 @@ Tools yang dapat digunakan untuk mengambil jadwal mahasiswa di igracias dan mema
 - Python 2.7
 - Google API Library
 ```
-pip install --upgrade google-api-python-client
+pip install --upgrade google-api-python-client oauth2client
 ```
 - Akses I-GRACIAS
 
