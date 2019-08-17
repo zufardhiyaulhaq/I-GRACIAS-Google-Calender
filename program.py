@@ -24,8 +24,8 @@ except ImportError:
 SCOPES = 'https://www.googleapis.com/auth/calendar'
 CLIENT_SECRET_FILE = 'client_id.json'
 APPLICATION_NAME = 'I-GRACIAS GOOGLE CALENDER'
-DATABASE = json.load(open("data.json","r"))
-
+DATABASE_TMP = json.load(open("data.json","r"))
+DATABASE = DATABASE_TMP["JSON"]
 
 def get_credentials():
     home_dir = os.path.expanduser('~')
